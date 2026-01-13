@@ -1,0 +1,51 @@
+.works-section {
+    padding: 20px 0;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.page-title span {
+    color: #3b82f6;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.work-card {
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.work-card:hover {
+    transform: translateY(-5px);
+}
+
+.work-img {
+    height: 180px;
+    width: 100%;
+    background-color: #eee; 
+}
+
+.work-info {
+    padding: 20px;
+}
+
+.work-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.work-info a {
+    font-size: 0.9rem;
+    color: #3b82f6;
+    font-weight: 600;
+}   
